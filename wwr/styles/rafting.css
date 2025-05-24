@@ -13,14 +13,15 @@
     --body-font: "Roboto", sans-serif;
 }
 
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-}
-
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+}
+
+header {
+    color: var(--accent2-color);
+    width: 840px;
+    margin: 0 auto;
 }
 
 .hero {
@@ -31,30 +32,56 @@ body {
     display: block;
     width: 100%;
     height: auto;
+    position: relative;
+    right: auto;
 }
 
-header,
-main,
+.article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.hero article img {
+    position: absolute;
+    float: right;
+    width: 125px;
+}
+section {
+    margin: 16px;
+    padding: 8px;
+}
+
+main {
+    width: 840px;
+    margin: 0 auto;
+}
 footer {
     width: 840px;
     margin: 0 auto;
 }
 
-h1,
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    position: relative;
+}
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-nav,
-p,
-section,
-article {
+nav {
+    margin: 16px;
+    padding: 8px;
+    background-color: #77C4F8;
+}
+p{
     margin: 16px;
     padding: 8px;
 }
 
-.socialmedia a {
+
+.socialmedia {
     text-decoration: none;
 }
 
@@ -73,7 +100,3 @@ h1 {
     position: absolute;
 }
 
-.hero article img {
-    float: right;
-    width: 125px;
-}
