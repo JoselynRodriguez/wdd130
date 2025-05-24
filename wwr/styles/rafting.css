@@ -2,7 +2,7 @@
     --primary-color: #77C4F8;
     --secundary-color: #FFE45E;
     --accent1-color: #FFADC6;
-    --secundary-color: #F5F5F5;
+    --accent2-color: #F5F5F5;
     --heading-font: "Montserrat", sans-serif;
     --body-font: "Roboto", sans-serif;
 }
@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: black;
 
 }
 
@@ -57,5 +57,25 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
+    color: black;
 
+}
+
+.hero article {
+    position: absolute;
+    bottom: 16px;
+    right: 17px;
+    background-color: var(--accent2-color);
+    opacity: 0.9;
+    color: var(--primary-color);
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 15px;
+}
+
+section img {
+    margin-top: 15px;
 }
