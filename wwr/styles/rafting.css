@@ -135,6 +135,15 @@ section img {
 
 }
 
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+}
+
 header {
     background-color: var(--primary-color);
     display: grid;
