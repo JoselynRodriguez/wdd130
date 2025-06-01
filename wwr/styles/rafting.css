@@ -129,7 +129,6 @@ section img {
 .adventure img {
     max-width: 15rem;
     margin-top: 2rem;
-    padding: auto;
     display: flex ;
     justify-content: center;
 
