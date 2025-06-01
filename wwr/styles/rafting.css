@@ -144,6 +144,11 @@ figure {
     unicode-bidi: isolate;
 }
 
+figure img {
+    width: 100%;
+    height: 10 rem;
+}
+
 header {
     background-color: var(--primary-color);
     display: grid;
