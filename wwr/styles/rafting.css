@@ -103,8 +103,8 @@ section img {
 .adventure{
     align-content: center;
     display: grid;
-    grid-template-columns:33% 33% 33%;;
-    grid-template-rows: 33% 33% 33%;
+    grid-template-columns:20% 20% 20% 20% 20%;
+    grid-template-rows: 50% 50%;
 }
 
 .adventure h2 {
@@ -122,30 +122,36 @@ section img {
     align-self: center;
     justify-content: center;
     display: grid;
-    grid-area: 1/1/1/4;
+    grid-area: 1/1/1/6;
    
 }
 
 .adventure img {
-    max-width: 15rem;
-    margin-top: 2rem;
+    max-width: 40rem;
+    margin-top: 1.5em;
     display: flex ;
     justify-content: center;
-
+    display: grid;
+    grid-area: 1/2/6/3;
+    padding: 10px;
+    margin: 0%;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 figure {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 50px;
-    margin-inline-end: 50px;
+    margin-inline-start: 2px;
+    margin-inline-end: 60px;
 }
 
 figure img {
-    width: 100%;
-    height: 10rem;
-    gap: 1rem;
+    width: 135%;
+    height: 9rem;
+    
 }
 
 figure figcaption {
