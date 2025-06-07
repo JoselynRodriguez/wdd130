@@ -25,7 +25,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: blueviolet;
 }
 
 nav, p, section, article {
@@ -291,4 +291,69 @@ div  {
 
 .column1 p {
     height: 1px;
+}
+
+main h1 {
+    background-color: rgba(238, 238, 83, 0.692);
+    color: black;
+    text-align: center;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information {
+    background-color: beige;
+    display: flex;
+    align-items: left;
+    justify-content: right;
+    flex-direction: column;
+   
+}   
+
+.map {
+    max-width: 10px;
+}
+
+section h2 {
+    background-color: #FFADC6;
+    text-align: center;
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: 50% 50%;
+   
+}
+
+.employee img {
+    display: grid;
+    grid-area: 2/1/2/4;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.employee h2 {
+    display: grid;
+    grid-area: 1/1/1/4;
+}.employee figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
