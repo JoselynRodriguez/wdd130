@@ -36,6 +36,8 @@ nav, p, section, article {
 
 .socialmedia a {
     text-decoration: none;
+    width: 60px;
+    height: 45px;
 }
 
 .hero {
@@ -128,7 +130,7 @@ section img {
 
 .adventure img {
     max-width: 40rem;
-    margin-top: 1.5em;
+    margin-top: 1em;
     display: flex ;
     justify-content: center;
     display: grid;
@@ -157,6 +159,7 @@ figure img {
 figure figcaption {
     margin: 1rem;
     margin-left: 3rem;
+    margin-bottom: 5rem;
 
 }
 
@@ -171,6 +174,7 @@ header {
 
 nav {
     background-color: var(--secundary-color);;
+    max-width: 100%;
 	display: flex;
 	flex-wrap: wrap;
     justify-content: space-around;
@@ -185,10 +189,34 @@ header img {
 
 footer {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
+    margin-top: 2rem;
+    padding: 1px;
+    display: flex;
+    align-content: center;
+    justify-content: right;
+    gap:5rem;
+    background-color: var(--primary-color);
+}
+
+.socialmedia img {
+    max-width: 50px;
+    display: block;
+    margin-top: 1px;
+    margin-left: 5px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
     display: flex;
     align-items: center;
     justify-content: right;
-    gap:3rem;
+    margin-left: 20px;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
 }
