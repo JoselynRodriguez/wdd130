@@ -223,7 +223,7 @@ footer a {
 
 form {
     width: 600px;
-    height: 550px;
+    height: 580px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 0.1);
@@ -306,7 +306,6 @@ main h1 {
 .information {
     background-color: beige;
     display: flex;
-    align-items: left;
     justify-content: right;
     flex-direction: column;
    
