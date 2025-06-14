@@ -493,7 +493,7 @@ th,td {
     justify-content: center;
 }
 
-.contact button {
+.contact a {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
