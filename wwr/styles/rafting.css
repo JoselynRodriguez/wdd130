@@ -222,6 +222,7 @@ footer p {
 footer a {
     display: flex;
     align-items: center;
+    color: black;
 }
 
 form {
@@ -257,12 +258,10 @@ form {
     display: flex;
     justify-content: center;
     justify-items:left ;
-    align-items: left;
     display: grid;
     grid-template-rows: 50% 50%;
     grid-template-columns: 50% 50%;
     row-gap: 10px;
-    align-items: left;
 }
 .signup input {
     width: 300px;
